@@ -3,7 +3,7 @@ const precoNoDebito = precoProduto - 0.10;
 const precoDinhoOuPix = precoProduto - 0.15;
 const precoDuasVezesNoCartao = precoProduto;
 const precoMaisDeDuasVezesNoCartao = precoProduto + 0.10;
-const formaDePagamento = 1;
+const formaDePagamento = 5;
 
 /* 
     Forma de pagamento:
