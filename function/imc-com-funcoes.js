@@ -15,8 +15,13 @@ function classificarIMC(imc) {
         return  'Seu IMC é ' + imc.toFixed(2) + ' você está com obsidade grave';
     }
 }
-const peso = 110;
-const altura = 1.79;
 
-const imc = calcularIMC(peso, altura);
-console.log(classificarIMC(imc));
+function main() {
+    const peso = 110;
+    const altura = 1.79;
+
+    const imc = calcularIMC(peso, altura);
+    console.log(classificarIMC(imc));
+}
+
+main();
